@@ -1,4 +1,6 @@
-# gestats <a href="https://github.com/BenSt099/gestats"><img src="logo/logo-final.svg" align="right" width="138" height="138"/></a>
+# gestats <a href="https://github.com/BenSt099/gestats"><img src="logo/logo-final.svg" align="right" width="140" height="140"/></a>
+
+![Static Badge](https://img.shields.io/badge/status-WIP-yellow)
 
 ## Overview
 

@@ -1,4 +1,5 @@
 library(tidyverse)
+library(giscoR)
 
 GE_States <- gisco_get_nuts(
   nuts_level = 1,
@@ -32,4 +33,14 @@ states <- GE_States %>%
 colors <- c("black", "red2", "black", "black", "red2", "red2", "red2", "red2", "black", "gold2", "gold2", "black", "black", "black", "black", "red2")
 
 ggplot(states) +
-  geom_sf(fill = colors)
+  geom_sf(fill = colors)+
+  geom_sf(fill = NA, color = "azure3", size = 1) +
+  theme(axis.text.x = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks = element_blank(),
+        #rect = element_blank()
+        panel.background = element_rect(fill = "black"),
+        panel.grid.major = element_line(color = "black")
+        )
+
+  

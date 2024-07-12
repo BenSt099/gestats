@@ -1,0 +1,49 @@
+INFORMATION - General Federal Election Statistics
+____________________________________________________________________________
+
+
+FILE: GE-1.4-Elections.csv
+GENESIS-TABLE: 14111-0001
+
+NUMBER OF COLUMNS: 3
+NUMBER OF ROWS: 11
+
+LAST UPDATED: 26.09.2021
+
+____________________________________________________________________________
+
+
+ROW 1: Subject; STRING (Ascii)
+ROW 2: Amount; INTEGER; in Million (example: Eligible voters: ~ 61 Million)
+ROW 3: Percentage; DECIMAL NUMBER; 
+
+____________________________________________________________________________
+
+Eligible voters in Germany have two votes: first and second vote.
+
+First vote?
+
+- Germany is split in 299 voting districts. 
+- In each district, voters can choose a candidate (independent or from a political party) using their first vote
+- the candidate with most votes is chosen as representative and is allowed in the german parliament (Bundestag)
+- through the first vote, 299 representatives are voted into the german parliament
+
+Second vote?
+
+- more important than the first vote
+- used to measure the relative strength between different parties
+- used to vote for a party, not an individual
+- used to decide how many of the 598 seats are entitled to each party
+- important for the majority ratio in the german parliament
+- IMPORTANT: Parties are only allowed in the parliament if:
+    - they get at least 5% of the all second votes 
+    - or three of their candidates won in their district
+
+Eligible?
+
+A person is considered an eligible voter if:
+
+- he is a german citizen
+- officially at least 18 years old on election day
+- his right to vote has not been taken by a judge (only for 2 years (maximum is 5))
+    - in cases like: preparation of war against the federal republic, high treason, bribery of representatives, election fraud, etc.

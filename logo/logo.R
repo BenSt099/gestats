@@ -30,11 +30,11 @@ data <- read.table(text = "
 
 states <- GE_States %>%
   left_join(data, by = c("NUTS_NAME" = "state"))
-colors <- c("black", "red2", "black", "black", "red2", "red2", "red2", "red2", "black", "gold2", "gold2", "black", "black", "black", "black", "red2")
+colors <- c("black", "red2", "black", "black", "red2", "red2", "red2", "red2", "black", "darkgoldenrod2", "darkgoldenrod2", "black", "black", "black", "black", "red2")
 
 ggplot(states) +
   geom_sf(fill = colors)+
-  geom_sf(fill = NA, color = "azure3", size = 1) +
+  geom_sf(fill = NA, color = "white", size = 1) +
   theme(axis.text.x = element_blank(),
         axis.text.y = element_blank(),
         axis.ticks = element_blank(),
